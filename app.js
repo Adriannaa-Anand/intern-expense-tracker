@@ -81,7 +81,7 @@ const port = 3000;
 
 
 
-const mongourl = "mongodb+srv://dbuser:agnel@cluster0.ek7nz.mongodb.net/Expense-Tracker";
+const mongourl = "mongodb+srv://dbuser:agmel@cluster0.ek7nz.mongodb.net/Expense_Tracker";
 mongoose.connect(mongourl)
     .then(() => {
         console.log("Database connected successfully");
